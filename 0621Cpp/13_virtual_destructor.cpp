@@ -28,6 +28,7 @@ int main()
 	Base b;
 	Base* base = new Derived;
 	delete base;
+	// b积-> base积-> Derived积(固免仿) -> Derived家-> base家-> b家
 
 	return 0;
 }

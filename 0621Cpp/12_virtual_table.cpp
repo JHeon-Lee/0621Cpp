@@ -4,6 +4,8 @@ using namespace std;
 
 // 가상함수 테이블은 클래스 당 하나만 존재
 
+// https://cosyp.tistory.com/228 참조
+
 /*
 	    class Base                                     Base my_base;
     *__vfptr         --------------------------->  -Base virtual-table
